@@ -7,6 +7,7 @@
       <el-header class="header">
         <app-header></app-header>
       </el-header>
+      <tags-view></tags-view>
       <el-main class="main">
         <app-main></app-main>
       </el-main>
@@ -18,6 +19,7 @@
 import AppAside from '@/layout/AppAside/index.vue'
 import AppHeader from '@/layout/AppHeader/index.vue'
 import AppMain from '@/layout/AppMain/index.vue'
+import TagsView from '@/layout/TagsView/index.vue'
 </script>
 
 <style lang="scss" scoped>
@@ -28,13 +30,13 @@ import AppMain from '@/layout/AppMain/index.vue'
   }
   .header {
     height: 50px;
-    border-bottom: 1px solid #e5e5e5;
+    // border-bottom: 1px solid #e5e5e5;
     display: flex;
     align-items: center;
     // justify-content: space-between;
   }
   .main {
-    background-color: darkcyan;
+    // background-color: darkcyan;
   }
 }
 </style>
